@@ -1,0 +1,23 @@
+:root{
+    --blue1: rgb(20,136,219);
+    --blue2: rgb(40, 192, 233);
+   
+    --name: DH;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6 rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
