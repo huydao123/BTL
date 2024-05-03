@@ -147,7 +147,7 @@
 .item:hover{
     background-color: blue;
 }
-.score{
+.box{
     background-color: rgb(255, 255, 255);
     width: 80%;
     height: 650px;
@@ -155,7 +155,6 @@
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    
     padding: 20px 50px;
     font-size: 1.5rem;
     text-align: center;
@@ -167,27 +166,31 @@
     align-self: center;
 }
 
-.score_board{
+/* Css cho table */
+.table{
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
     align-self: center;
     margin: 2px 0;
 }
-.score_board th{
+.table th{
     color: white;
     background-color: #075385;
 }
-.score_board tbody tr:nth-child(odd){
+.table tbody tr:nth-child(odd){
     background-color: #f9f9f9;
 }
-.score_board tbody tr:nth-child(even){
+.table tbody tr:nth-child(even){
     background-color: #ffffff;
 }
-.score_board,.score_board th,.score_board td{
+.table,.table th,.table td{
     border: 1px solid #dddddd;
     height: 30px;
 }
+
+
+
 .hidden{
     display: none;
 }
